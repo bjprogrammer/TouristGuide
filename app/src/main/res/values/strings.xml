@@ -2,8 +2,8 @@
     <string name="app_name">Tourist Guide</string>
     <string name="spinner_title">Select Gender-</string>
     <string name="spinner_title2">Select Age-</string>
-    <string name="facebook_app_id">1586057581469646</string>
-    <string name="fb_login_protocol_scheme">fb1586057581469646</string>
+    <string name="facebook_app_id">YOUR APP ID</string>
+    <string name="fb_login_protocol_scheme">YOUR FB CREDENTIALS</string>
     <string name="circle">Circle</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
