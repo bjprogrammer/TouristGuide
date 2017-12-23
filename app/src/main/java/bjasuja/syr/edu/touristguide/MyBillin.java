@@ -20,7 +20,7 @@ public class MyBillin {
     Activity activity;
     IabHelper mHelper;
 
-    String base64EncodedPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnIjNm93cFGqMSIB/OgKoG5OMRk3LlqMskAScqkKYQDjTyqDPP8p209JypC2rs8R9pUvshV2dcSes4nzfJ61v4KhhTZwh4IzBGlj01ffblWL1SfXoRwEcCkL3v9XR53N//BbST6lt/szqrCYx+TTyPvWD8+WEKnDzsp7HLlVH5Z+AYgWzIRURTPeRhdc0TP22AyY7DNR45np2lr0gH/0SyEVez7LSVG2BNzCWb4/iZgXfjtmiqkk7hWMXQ1K3GAWjCnEtKfetnKVD8F8yiBj1Flyqqz86iNXSqMPyColuo6C225HrJukv+6ac0FtYVUi+EFPuq6wwX6liQxZJDvMlawIDAQAB";
+    String base64EncodedPublicKey = " YOUR API KEY";
     Boolean isAdsDisabled = false;
     String payload = "ANY_PAYLOAD_STRING";
 
