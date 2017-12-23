@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/bottom_action1"
+            android:icon ="@drawable/ic_poll_black_24dp"
+            app:showAsAction ="always"
+            android:title ="Remove Survey" />
+
+        <item
+            android:id="@+id/bottom_action2"
+            android:icon ="@drawable/ic_picture_in_picture_black_24dp"
+            app:showAsAction ="always"
+            android:title ="Remove Ads" />
+
+
+        <item
+            android:id="@+id/bottom_action3"
+            android:icon ="@drawable/ic_format_list_numbered_black_24dp"
+            app:showAsAction ="always"
+            app:backgroundTint="@color/colorAccent"
+            android:title ="Sort Year" />
+
+
+    <item
+        android:id="@+id/bottom_action4"
+        android:icon ="@drawable/ic_dialog_map"
+        app:showAsAction ="always"
+        app:background="@color/colorAccent"
+        android:title ="Autocomplete" />
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+        android:title ="Search"
+        android:icon ="@drawable/ic_search_black_48dp"
+        app:itemIconTint ="#000000"
+        app:showAsAction ="always|collapseActionView"
+        app:actionViewClass ="android.support.v7.widget.SearchView" />
+
+    <item android:id="@+id/action_map"
+        android:title ="Map View"
+        android:icon ="@drawable/ic_location_on_black_24dp"
+        app:itemIconTint ="#000000"
+        app:showAsAction ="always" />
+
+    <item android:id="@+id/action_sort"
+        android:title ="Sort By Name"
+        android:icon ="@drawable/ic_dns_black_24dp"
+        app:itemIconTint ="#000000"
+        app:showAsAction ="always" />
+
+
+    <item android:id="@+id/action_unhide"
+        android:title ="Remove Ads"
+        android:icon ="@drawable/ic_visibility_black_24dp"
+        app:itemIconTint ="#000000"
+        app:showAsAction ="withText" />
+
+    <item android:id="@+id/action_privacy"
+        android:title ="Privacy Policy"
+        android:icon ="@drawable/ic_https_black_24dp"
+        app:itemIconTint ="#000000"
+        app:showAsAction ="withText" />
+
+    <item android:id="@+id/action_logoff"
+    android:title ="Logoff"
+    android:icon ="@drawable/ic_power_settings_new_black_48dp"
+    app:itemIconTint ="#000000"
+    app:showAsAction ="withText" />
+
+
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_search"
+        android:title ="Search"
+        android:icon ="@android:drawable/ic_menu_search"
+        app:itemIconTint ="@color/colorAccent"
+        app:showAsAction ="ifRoom|collapseActionView"
+        app:actionViewClass ="android.support.v7.widget.SearchView" />
+
+    <item android:id="@+id/action_unhide"
+        android:title ="Unhide Bottom Toolbar"
+        android:icon ="@drawable/ic_visibility_black_24dp"
+        app:itemIconTint ="@color/colorAccent"
+        app:showAsAction ="withText"
+        app:actionViewClass ="android.support.v7.widget.SearchView" />
+
+    <item android:id="@+id/action_sort"
+        android:title ="Sort By Name"
+        android:icon ="@drawable/ic_dns_black_24dp"
+        app:itemIconTint ="@color/colorAccent"
+        app:showAsAction ="withText"
+        app:actionViewClass ="android.support.v7.widget.SearchView" />
+</menu>

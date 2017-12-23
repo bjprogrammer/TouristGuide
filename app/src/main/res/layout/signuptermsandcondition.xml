@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fillViewport="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:transitionGroup="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Terms and Conditions"
+                android:id="@+id/textView13"
+                android:textSize="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:textColor="#e71616"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:id="@+id/textView27"
+                android:layout_below="@+id/textView58"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#e81313"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView36"
+                android:layout_below="@+id/textView27"
+                android:layout_centerHorizontal="true"
+                android:text="The Tourist Guide app team is committed to protecting the rights of all visitors to our app. We recognize our obligation to keep personal information secure and have created this privacy statement to share our information gathering and dissemination practices for this app. We also assure you that none of your registered information will be shared with any third parties outside the parent company. However, the information that you have agreed to broadcast during the process of registration will be available for the public view."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView37"
+                android:layout_below="@+id/textView36"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:textColor="#e81313"
+                android:text="Collection and Use of On-line Information"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView42"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_below="@+id/textView37"
+                android:layout_centerHorizontal="true"
+                android:text="When you visit certain areas of this app including the registration form, you may be asked to provide personal information that we need to process your request. In the event that you decline to provide such information, we will be unable to process your request. Still, we invite you to continue to visit the app and take advantage of the wealth of information it offers. Every user who provides us with personal information has the right to inspect, amend, or correct his/her own personal information. You may do so by logging in, if you are a registered user" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView43"
+                android:textSize="18dp"
+                android:textColor="#e81313"
+                android:text="Other Websites, Links and Resources"
+                android:textAlignment="center"
+                android:layout_below="@+id/textView42"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textIsSelectable="false" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This privacy policy extends to this app only. If you link to another individual or entity's website through our app or re-directed from our app, you should read the privacy policy specific to that website to determine their practices. If you have any questions or concerns about the online policy for this app or its implementation you may contact us using the details posted on the ‘contact us’ screen on our app."
+                android:id="@+id/textView51"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:layout_below="@+id/textView43"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView52"
+                android:textSize="18dp"
+                android:textColor="#e81313"
+                android:text="Terms of use"
+                android:textAlignment="center"
+                android:layout_below="@+id/textView51"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textIsSelectable="false" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is purely a non-profit app directed towards the welfare of our community. Any individual or entity that enrolls for our service does so with his/her own will and at no obligation to any one else or any other entity. We seriously condemn the use of this app for any commercial purpose, including solicitation for commercial gain based on the contact details posted by the registered users. We take the privacy of our users very seriously and therefore reserve the right to pursue a legal action against the individuals or entities violating our terms of use."
+                android:id="@+id/textView53"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:layout_below="@+id/textView52"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView54"
+                android:textSize="18dp"
+                android:textColor="#e81313"
+                android:text="Use of Donations"
+                android:textAlignment="center"
+                android:layout_below="@+id/textView53"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textIsSelectable="false" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We do accept funds in form of donation from those who volunteer themselves to do so; such funds collected will be used for covering the part of the administrative expenses"
+                android:id="@+id/textView55"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:layout_below="@+id/textView54"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView56"
+                android:textSize="18dp"
+                android:textColor="#e81313"
+                android:text="Complaints Procedure"
+                android:textAlignment="center"
+                android:layout_below="@+id/textView55"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textIsSelectable="false" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anyone who experiences a problem with the service provided by Tourist guide app should raise the matter directly using our online contact us form, giving sufficient information to locate the material (such as an url) and clearly outlining the grounds for complaint. Tourist Guide app team will approach the individual responsible for the material in question with a view to resolving the matter to the satisfaction of the complainant. The formal complaints procedure should only be used where the complainant feels that the nature of the complaint is too serious to be dealt with informally, or where a satisfactory conclusion has not been reached after following the informal procedure. A formal complaint should be made in writing to Tourist Guide team, who will acknowledge receipt and ensure that the matter is looked into at the earliest possible. An initial response to any complaint can be expected within seven days of its receipt; a full and considered response to the complaint should be completed within 30 days and any subsequent remedy implemented with the minimum of delay."
+                android:id="@+id/textView57"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:layout_below="@+id/textView56"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Close"
+                android:id="@+id/button7"
+                android:background="#de1113"
+                android:layout_below="@+id/textView57"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView58"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/textView13"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:text=" I certify that my answers are true and complete to the best of my knowledge. If the application leads to acceptance into the organ donor program, I understand that false and misleading information may result in my release rom this program.&amp;quot;&quot;" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

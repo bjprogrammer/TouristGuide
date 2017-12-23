@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#98cc0000</color>
+    <color name="colorPrimaryDark">#8e0000</color>
+    <color name="colorAccent">#cc0202</color>
+    <color name="primary">#ed575a</color>
+    <color name="av_default_border">@android:color/white</color>
+    <color name="av_bitmap_background_color">#FF4081</color>
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+
+    <color name="blueStart">#4EFFF3</color>
+    <color name="blueEnd">#0ca6f9</color>
+    <color name="purpleStart">#a369ff</color>
+    <color name="purpleEnd">#0e56ff</color>
+    <color name="roseStart">#FF6A00</color>
+    <color name="roseEnd">#ef0276</color>
+    <color name="greenStart">#a7f56e</color>
+    <color name="greenEnd">#11c612</color>
+    <color name="colorEnd">#ECEC19</color>
+    <color name="colorstart">#EC8919</color>
+
+    <color name="End">#FF0000 </color>
+
+</resources>

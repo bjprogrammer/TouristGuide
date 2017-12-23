@@ -1,0 +1,66 @@
+{
+  "project_info": {
+    "project_number": "873538782875",
+    "firebase_url": "https://tourist-guide-b724b.firebaseio.com",
+    "project_id": "tourist-guide-b724b",
+    "storage_bucket": "tourist-guide-b724b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873538782875:android:4da735a70b000a78",
+        "android_client_info": {
+          "package_name": "bjasuja.syr.edu.touristguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873538782875-rdpmr2ltnbkfm4r23hrfdakjr0m0vdvo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bjasuja.syr.edu.touristguide",
+            "certificate_hash": "48ae4fd88565ce3d05449d5a12bdcef574559399"
+          }
+        },
+        {
+          "client_id": "873538782875-u3g1rs0btf25esoeop76ccemhbv0eb7h.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "873538782875-troorues5rik0on3ggt3cttndepncj2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1bDJ9vVGjOwemAvVQyvLz0HPyv-kLDoI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873538782875-tcq7912k4ptb4p43dnkml3qg92k6g1o7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "edu.syr.bjasuja.googlesignin"
+              }
+            },
+            {
+              "client_id": "873538782875-u3g1rs0btf25esoeop76ccemhbv0eb7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
