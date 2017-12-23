@@ -82,8 +82,8 @@ public class Signin extends AppCompatActivity implements View.OnClickListener,Go
     String fbemail="",fbid="",fbname="",fbpic="",fbgender="";
 
     private TwitterLoginButton twloginButton;
-    private static final String TWITTER_KEY = "hBghpsxHYutSTKBl1EYJvntxw";
-    private static final String TWITTER_SECRET = "85mURLOXbEJAJGn6MGzuPYrYwMDDDVWXEXjKbu0Sji29iFPdJK";
+    private static final String TWITTER_KEY = " YOUR API KEY";
+    private static final String TWITTER_SECRET = " YOUR API SECRET";
     String twpic="",twname="",twemail=" ";
     long twid;
 
