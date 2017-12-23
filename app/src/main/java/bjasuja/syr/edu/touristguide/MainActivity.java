@@ -130,8 +130,8 @@ public class MainActivity extends AppCompatActivity implements RecyclerviewFragm
         static  TextView mTitle;
         ImageView mImage;
         Fragment fragment,fragment2;
-        private static final String TWITTER_KEY = "hBghpsxHYutSTKBl1EYJvntxw";
-        private static final String TWITTER_SECRET = "85mURLOXbEJAJGn6MGzuPYrYwMDDDVWXEXjKbu0Sji29iFPdJK";
+        private static final String TWITTER_KEY = " YOUR API KEY";
+        private static final String TWITTER_SECRET SECRET= " YOUR API SECRET="";
         public static String username,state,email,mobile,gender,rating,password,logout,fbid,fbname,fbemail,twid,twname,pic,glid,glname,twemail,glemail;
         public static int ID;
         public static Bitmap image,bitmap;
