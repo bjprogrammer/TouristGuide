@@ -4,4 +4,5 @@ Users that are new to a place don’t know much about the popular surrounding.Th
 Features included-
 Navigation Drawer,RecyclerView,View Pager,Animation Effects during activity/fragment transitions, Custom Views,App state,Toolbar,Background task, Google Maps,Camera/Gallery,Hosting data,Google Maps API,Google Places API,Service/Broadcast receiver,Flipbook Animations,Text To Speech, SQLite database, In-app store purchase
 
-Database folder and PHP folder contain server side code of this app
+Database folder and PHP folder contain server side code of this app.
+For more details, please go through "Tourist guide-report"
