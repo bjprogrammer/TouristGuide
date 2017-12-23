@@ -8,7 +8,7 @@ import retrofit.http.Query;
 
 
 public interface RetrofitMaps2 {
-    @GET("api/directions/json?key=AIzaSyA5wjM9aabJ2FgjEHwx5ZPc1k40NZoJvpI")
+    @GET("api/directions/json?key= YOUR API KEY")
     Call<Example> getDistanceDuration(@Query("units") String units, @Query("origin") String origin, @Query("destination") String destination, @Query("mode") String mode);
 
 }
